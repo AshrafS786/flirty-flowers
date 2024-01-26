@@ -1,0 +1,16 @@
+.footer {
+  text-align: center;
+  margin-top: -5vh;
+  .location {
+    font-size: 18vw;
+    text-transform: uppercase;
+    font-family: "Bodoni Moda", serif;
+    line-height: 1.1;
+    color: #222222;
+    margin-top: 10vh;
+    opacity: 0;
+    &.is-reveal {
+      opacity: 1;
+    }
+  }
+}
